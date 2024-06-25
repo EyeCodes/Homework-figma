@@ -1,0 +1,135 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/* navigation bar vv */
+header{
+
+height: 75px;
+
+width: auto;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+span, h1{
+
+  font-family: 'Roboto';
+
+}
+
+
+.navigation{
+background-color: white;
+height: 75px;
+
+width: 1600px;
+margin: 0 auto;
+
+position: fixed;
+align-items: center;
+align-content: center;
+
+
+}
+
+.logoCont{
+
+margin-left: 10%;
+
+}
+
+.logo{
+
+font-family: 'Raleway';  
+font-size: 18px;
+font-weight: 900;
+letter-spacing: 1px;
+
+}
+
+.logo.web {
+
+color: rgb(49, 110, 251);
+margin-left: 10%;
+}
+
+.logo.studio {
+
+color: rgb(10, 0, 40);
+
+}
+
+.navMenu{
+
+  font-size: 16px;
+font-family: 'Roboto';
+font-weight: bold;
+margin-left: 5%;
+color: rgb(10, 0, 40);
+
+}
+
+.navMenu.link:hover{
+
+color: rgb(49, 110, 251);
+
+}
+
+.contacts{
+
+  font-size: 16px;
+  font-weight: light;
+  margin-left: 6%;
+  color: rgb(109, 104, 125);
+
+  }
+
+/* navigation bar ^^ */
+
+/* hero section vv */
+
+.hero-section{
+
+height: 500px;
+width: auto;
+background-image: linear-gradient(110deg, rgb(12, 12, 178), navy, black);
+
+font-size: 2em;
+color: rgb(239, 233, 250);
+text-align: center;
+
+
+position: static;
+align-content: center;
+
+}
+
+.hero-section-btn{
+
+background-color: rgb(25, 91, 245);
+margin-top: 1.5%;
+padding: 20px;
+
+border: 0;
+border-radius: 5%;
+box-shadow:1.5px 2px 5px -1.5px snow;
+
+color: rgb(239, 233, 250);
+
+transition: .1s;
+
+}
+
+.hero-section-btn:hover{
+
+  background-color: rgb(49, 110, 251);
+
+}
+
+/* hero section ^^ */
+
