@@ -111,13 +111,13 @@ align-content: center;
 
 .hero-section-btn{
 
-background-color: rgb(25, 91, 245);
+background-color: rgb(5, 64, 201);
 margin-top: 1.5%;
 padding: 20px;
 
 border: 0;
 border-radius: 5%;
-box-shadow:1.5px 2px 5px -1.5px snow;
+box-shadow:1.5px 2px 5px -1.5px rgb(0, 0, 0);
 
 color: rgb(239, 233, 250);
 
