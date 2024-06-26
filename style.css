@@ -534,25 +534,26 @@ color: rgb(109, 104, 125);
   }
 
   /* mid */
-  @media screen and (max-width: 199px) {
+  @media screen and (max-width: 885px) and (min-width: 551px) {
 
     .container-3{
   
       height: 35rem;
-  
+      column-gap: 0.5rem;
+
     }
     
     .feature{
     
-      height: 275px;
-      width: 200px;
+      height: 255px;
+      width: 150px;
     
     }
     
     .feature-img{
     
-    height: 175px;
-    width: 200px;
+    height: 155px;
+    width: 150px;
     
     }
   
@@ -565,10 +566,11 @@ color: rgb(109, 104, 125);
     }
 
 /* phones */
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 664px){
   
   .container-3{
   
+    height: 41rem;
   column-gap: 0.5rem;
   
   }
