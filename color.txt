@@ -1,0 +1,4 @@
+text description rgb(109, 104, 125)
+web rgb(49, 110, 251)
+main text rgb(10, 0, 40)
+background-image: linear-gradient(110deg, rgb(12, 12, 178), navy, black);

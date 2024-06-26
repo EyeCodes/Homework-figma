@@ -16,28 +16,39 @@
 
 </head>
 
-<body>
+<body id="body">
 
 <header>
-  <nav class = "navigation">
+  <nav class = "navigation" id="nav">
 
+    <div class = "nav-container">
     <a href="./index.html">
-      <span class="logo web">WEB<span class="logo studio">STUDIO</span></span>
+      <span class="logo web">WEB<span class="logo studio" id = "menu-1">STUDIO</span></span>
     </a>
+    </div>
 
+    <div class = "nav-container">
     <span class = "navMenu">
-      <a class="navMenu link">Studio</a>
-      <a class="navMenu link ">Portfolio</a>
-      <a class="navMenu link">Contacts</a>
+      <a class="navMenu link" id = "menu-2">Studio</a>
+      <a class="navMenu link " id = "menu-3">Portfolio</a>
+      <a class="navMenu link" id = "menu-4">Contacts</a>
     </span>
+    </div>
 
+    <div class = "nav-container">
     <span class = "contacts">
       <span class="contacts">info@devstudio.com</span>
-      <span class="contacts ">+11 (000) 111-11-11 </span>
+      <span class="contacts ">&nbsp;&nbsp;+11 (000) 111-11-11 </span>
     </span>
+    </div>
+
+    <button class = "theme"><div id = "themeBTN"> </div></button>
+    <button class="collapse"><span class = "collapse-txt">Menu</span></button>
 
   </nav>
 </header>
+
+<!-- V Hero section V-->
 
 <section class = "hero-section">
 
@@ -49,7 +60,106 @@
 
 </section>
 
-<script src = "./function.js"></script>
+<!-- Main section -->
+
+<main class = "main-section">
+
+<section class = "container-1">
+
+  <div class = 'des'>
+    <h2 class="h">Strategy</h2>
+    <span class = "t">Our goal is to identify the  business problem to walk away with the perfect and creative solution.</span>
+  </div>
+
+  <div class = 'des'>
+    <h2 class="h">Panctuality</h2>
+    <span class = "t">Bring the key message to the brand’s audience for the best price within the shortest possible time.</span>
+  </div>
+
+  <div class = 'des'>
+    <h2 class="h">Diligence</h2>
+    <span class = "t">Our goal is to identify the  business problem to walk away with the perfect and creative solution.</span>
+  </div>
+
+  <div class = 'des'>
+    <h2 class="h">Technologies</h2>
+    <span class ="t">Our goal is to identify the  business problem to walk away with the perfect and creative solution.</span>
+  </div>
+
+</section>
+
+<!-- section 2 -->
+
+<section class="container-2">
+
+<h1 class = "section-two-title">What Are We Doing?</h1>
+
+<div class = "sub-container">
+
+    <img class = "section-two-image" src="./images/computer.png" alt = "Computer">
+    <img class = "section-two-image" src="./images/phone.png" alt = "phone">
+    <img class = "section-two-image" src="./images/phone2.png" alt = "held phone">
+
+</div>
+
+</section>
+
+<!-- Section 3 Features -->
+
+<section class = "container-3">
+
+<div class = "feature">
+
+<img class = "feature-img" src = "./images/feature/mark.png" alt = "Mark Guerrero - Project Manager">
+<h4 class = "name">Mark Guerrero</h4>
+<span class = "role">Project Manager</span>
+
+</div>
+
+<div class = "feature">
+
+  <img class = "feature-img" src = "./images/feature/tom.png" alt = "Tom Ford - Frontend Developer">
+  <h4 class = "name">Tom Ford</h4>
+  <span class = "role">Frontend Developer</span>
+  
+  </div> 
+
+<div class = "feature">
+
+  <img class = "feature-img" src = "./images/feature/camilia.png" alt = "Camila Garcia - Marketing">
+  <h4 class = "name">Camila Garcia</h4>
+  <span class = "role">Marketing</span>
+  
+  </div>
+
+  <div class = "feature">
+
+    <img class = "feature-img" src = "./images/feature/Daniel.png" alt = "Daniel Wilson - UI designer">
+    <h4 class = "name">Daniel Wilson</h4>
+    <span class = "role">UI Designer</span>
+    
+    </div>
+
+
+</section>
+
+</main>
+
+<!-- footer -->
+
+<footer>
+  
+<div class = "container-4">
+  <span class="logo web-footer">WEB<span class="logo studio-footer" id = "menu-1">STUDIO</span></span>
+  <p class = "footer-txt">Increase the flow of customers and sales for your business with digital  marketing and growth solution.</p>
+</div>
+
+</footer>
+
+
+<!-- Script -->
+
+<script src = "function.js"></script>
 
 </body>
 
