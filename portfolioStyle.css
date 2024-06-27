@@ -30,7 +30,7 @@ width: 100%;
 
 .navigation{
 
-  background-color: white;
+  background-color: #F4F4FD;
   box-shadow: 0 1px 5px -1.5px rgb(0, 0, 0);
   
   height: 75px;
@@ -445,7 +445,7 @@ footer{
   justify-content: center;
   align-items: start;
   
-  background-image: linear-gradient(110deg, rgb(12, 12, 178), navy, black);
+  background-color: #2E2F42;
   
   }
   
@@ -463,7 +463,7 @@ footer{
   
   .logo.studio-footer {
     
-    color: rgb(239, 233, 250);
+    color: #F4F4FD;
     
     }
   

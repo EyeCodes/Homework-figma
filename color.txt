@@ -2,3 +2,8 @@ text description rgb(109, 104, 125)
 web rgb(49, 110, 251)
 main text rgb(10, 0, 40)
 background-image: linear-gradient(110deg, rgb(12, 12, 178), navy, black);
+rgb(239, 233, 250) light
+
+#2E2F42 navy blue
+
+#F4F4FD cloudy
