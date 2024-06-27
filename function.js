@@ -1,9 +1,9 @@
 // theme light/dark vvv
 var light = true;
 
-document.getElementById("themeBTN").onclick = function() {themeChanger(light)};
+document.getElementById("themeBTN").onclick = function() {themeChanger()};
 
-function themeChanger(a){
+function themeChanger(){
 
 if (light == true){
 
@@ -16,6 +16,8 @@ if (light == true){
 
     document.getElementById("menu-"+i).style.color = 'rgb(239, 233, 250)';
     document.getElementById("coreValues-"+i).style.color = 'rgb(239, 233, 250)';
+    document.getElementById("nameID-"+i).style.color = 'rgb(239, 233, 250)';
+    document.getElementById("featureID-"+i).style.backgroundColor = 'rgb(10, 0, 40)';
 
   }
 
@@ -31,6 +33,9 @@ if (light == true){
   for(i = 1; i <= 4; i++){
 
     document.getElementById("menu-"+i).style.color = 'rgb(10, 0, 40)';
+    document.getElementById("coreValues-"+i).style.color = 'rgb(10, 0, 40)';
+    document.getElementById("nameID-"+i).style.color = 'rgb(10, 0, 40)';
+    document.getElementById("featureID-"+i).style.backgroundColor = 'rgb(239, 233, 250)';
 
   }
 
