@@ -7,3 +7,4 @@ rgb(239, 233, 250) light
 #2E2F42 navy blue
 
 #F4F4FD cloudy
+#E7E9FC corner flower
