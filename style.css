@@ -182,7 +182,7 @@ margin-top: 2rem;
 padding: 20px 3em;
 
 border: 0;
-border-radius: 5%;
+border-radius: 4px;
 box-shadow: 0 0 4px -2px rgb(0, 0, 0);
 
 font-size: 1rem;
@@ -225,6 +225,7 @@ height: 95%;
 width: 25%;
 
 background-color: #FCFCFC;
+border-radius: 4px;
 box-shadow: 1px 1px 5px .0px black;
 
 position: absolute;
