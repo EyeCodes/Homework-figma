@@ -7,331 +7,147 @@ a{
   text-decoration: none;
 }
 
-p, span, h1, h2, h3, h4, h5{
+p, a, span, h1, h2, h3, h4, h5, h6{
 
   font-family: 'Roboto';
 
 }
 
-.nav-container:nth-child(3){
+.title{
 
-  width: fit-content;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(10, 0, 40);
+  
+  margin: 5% 0;
+  
+  }
+
+.socials{
+
+display: flex;
+justify-content: space-evenly;
 
 }
 
-main{
+.card-social-img{
 
-  height: 100%;
-  width: 100%;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-top: 1rem;
   
   }
-  
-  .socials{
-  
-  display: flex;
-  justify-content: space-evenly;
-  
-  }
-  
-  .card-social-img{
-  
-    height: 2.5rem;
-    width: 2.5rem;
-    margin-top: 1rem;
-    
-    }
 
 /* navigation bar vv */
 header{
 
-  height: 5rem;
-  width: 100%;
-  
-  }
-  
-  .navigation{
-  
-    background-color: #FFFF;
-    box-shadow: 0 1px 5px -1.5px rgb(0, 0, 0);
-    
-    height: 5rem;
-    width: 100%;
-  
-    position: fixed;
-    display: flex;
-    
-    justify-content: space-evenly;
-    align-items: center;
-  
-  
-    z-index: 1;
-    
-    }
-  /* 
-    .collapse{
-    
-    visibility: hidden;
-    
-    } */
-    
-    .logo{
-    
-    font-family: 'Raleway';  
-    font-size: 1.2rem;
-    font-weight: 900;
-    letter-spacing: 1px;
-    
-    }
-    
-    .logo.web {
-    
-    color: rgb(49, 110, 251);
-    
-    }
-    
-    .logo.studio {
-    
-    color: rgb(10, 0, 40);
-    
-    }
-    
-    .navMenu{
-    
-    font-size: 1rem;
-    font-family: 'Roboto';
-    font-weight: bold;
-    color: rgb(10, 0, 40);
-  
-    margin-left: 2rem;
-  
-  
-  }
-  
-    .navMenu.link:hover{
-    
-    color: #4D5AE5;
-    
-    }
-    
-    .contacts{
-    
-      font-size: 1rem;
-      font-weight: light;
-      color: rgb(109, 104, 125);
-    
-      }
-  
-    .contacts:last-child{
-  
-      margin-left: 2rem;
-  
-    }
-  
-    .logo.web, .navMenu, .contacts{
-  
-      align-content: center;
-      text-align: start;
-  
-      height: 100%;
-      width: 30rem;
-  
-    }
-  
-    .logo.web, .contacts{
-  
-      margin-left: 5rem;
-    
-  
-    }
-  
-  /* theme */
-  
-  .theme{
-  
-    border: 0;
-    background-color: rgba(0, 0, 0, 0);
-  
-  }
-  
-  #themeBTN{
-  
-    height: 20px;
-    width: 20px;
-  
-    background-color: rgb(20, 18, 24);
-    border-radius: 100%;
-  
-  }
-  
-  /* them btn*/
-  
-/* md size */
-@media screen and (max-width: 1400px) {
-    
-  .nav-container{
+height: auto;
+width: 100%;
 
-    width: 0%;
-  
-  }
-  
-  .nav-container:nth-child(2){
-  
-  width: 15%;
-  
-  }
-  
-  .nav-container:nth-child(3){
-  
-    width: 20%;
-    
-    }
+background-color: #FFFF;
+box-shadow: 0 1px 5px -1.5px rgb(0, 0, 0);
 
-  .navMenu{
+position: fixed;
+display: grid;
+grid-template-columns: 20% 40% 40%;
+justify-content: center;
 
-    font-size: 15px;
-    margin: .5%;
-  
-  } 
-
-  .contacts{
-
-    font-size: 12px;
-    margin: 0;
-
-  }
-
-}
-
-@media screen and (max-width: 1200px) {
-    
-  .nav-container{
-
-    width: 0%;
-  
-  }
-  
-  .nav-container:nth-child(2){
-  
-  width: 15%;
-  margin-left: 1%;
-  
-  }
-  
-  .nav-container:nth-child(3){
-  
-    width: 20%;
-    
-    }
-
-  .navMenu{
-
-    font-size: 12px;
-    margin: .5%;
-  
-  } 
-
-  .contacts{
-
-    font-size: 10px;
-    margin: 0;
-
-  }
+z-index: 1;
 
 }
   
-@media screen and (max-width: 1000px) and (min-width: 801px)  {
-    
-  .nav-container{
-
-    width: 0%;
-  
-  }
-  
-  .nav-container:nth-child(2){
-  
-  width: 15%;
-  margin-left: 1%;
-  
-  }
-  
-  .nav-container:nth-child(3){
-  
-    width: 20%;
-    
-    }
-
   .logo{
+    
+  height: 100%;
+  align-content: center;
+  text-align: end;
 
-    font-size: 13.5px;
-    /* margin-right: 0 10%; */
+  }
+  
+  .web {
+  
+  font-family: 'Raleway';  
+  font-size: 1.2rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #4D5AE5;
   
   }
-
+  
+  .studio {
+  
+  font-family: 'Raleway';  
+  font-size: 1.2rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #2E2F42;
+  
+  }
+  
   .navMenu{
 
-    font-size: 10px;
-    /* margin: 24.5%; */
-  
-  } 
+  margin-left: 3rem;
 
-  .contacts{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 2rem;
 
-    font-size: 8px;
-    margin: 0;
-
-  }
+  justify-content: start;
+  align-items: start;
+  text-align: center;
 
 }
 
-/* tablet size */
-@media screen and (max-width: 800px) {
+.link{
+
+  font-size: 1.1rem;
+  font-weight: bold;
   
-  .navMenu{
+  height: 100%;
+  width: auto;
+  margin-top: 2rem;
 
-    display: none;
-
-  }
-
-  .contacts{
-
-    display: none;
+  color: #2E2F42;
 
   }
 
-  .collapse{
+._{
 
-    visibility: visible;
-    float: right;
-    /* padding: 10px; */
-    /* clear: right; */
+height: .3rem;
+margin-top: 1rem;
+border-radius: 5rem;
+background-color: #4D5AE5;
 
-  }
-
-  .theme{
-
-    border: 0;
-    margin-right: 5%;
-    background-color: rgba(0, 0, 0, 0);
-    float: right;
-    clear: right;
-
-  }
+opacity: 0;
 
 }
+
+.link:nth-of-type(2),._:nth-of-type(2){
+
+  color: #4D5AE5;
+  opacity: 100%;
+
+}
+
+.link:hover{
+  color: #4D5AE5;
+}
+  
+  .contacts{
+    
+    margin: 0 .5rem;
+
+    font-size: 1rem;
+    font-weight: medium;
+    color: #434455;
+
+    align-content: center;
+    text-align: center;
+
+    }
+
 
 /* navigation bar ^^ */
-
-/* article */
-
-article{
-
-height: 100%;
-width: 100%;
-display: block;
-justify-content: center;
-align-items: center;
-
-}
 
 /* Filter*/
 

@@ -9,3 +9,6 @@ rgb(239, 233, 250) light
 #F4F4FD cloudy
 #E7E9FC corner flower
 #4D5AE5 iris
+
+#434455 slate
+#FCFCFC dairy

@@ -16,55 +16,59 @@
 
 </head>
 
-<body id="body">
+<body>
 
 <header>
-  <nav class = "navigation" id="nav">
 
-    <!-- <div class = "nav-container"> -->
-    <a href="./index.html">
-      <span class="logo web">WEB<span class="logo studio" id = "menu-1">STUDIO</span></span>
-    </a>
-    <!-- </div> -->
+    <div class="logo">
+      <span class="web">WEB<span class="studio" id = "menu-1">STUDIO</span></span>
+    </div>
 
-    <!-- <div class = "nav-container"> -->
-    <span class = "navMenu">
-      <a class="navMenu link" id = "menu-2">Studio</a>
-      <a  href ="./portfolio.html" class="navMenu link " id = "menu-3">Portfolio</a>
-      <a class="navMenu link" id = "menu-4">Contacts</a>
-    </span>
-    <!-- </div> -->
+    <nav class = "navMenu">
+      <a href = "./index.html" class = "link">Studio</a>
+      <a href = "./portfolio.html" class="link">Portfolio</a>
+      <a class= "link">Contacts</a>
+      <span class = "_"></span>
+      <span class = "_"></span>
+      <span class = "_"></span>
+    </nav>
 
-    <!-- <div class = "nav-container"> -->
-    <span class = "contacts">
-      <span class="contacts">info@devstudio.com</span>
-      <span class="contacts ">&nbsp;&nbsp;+11 (000) 111-11-11 </span>
-    </span>
-    <!-- </div> -->
+    <div class = "contacts">
+      <span class = "contacts">info@devstudio.com</span>
+      <span class = "contacts">+11 (000) 111-11-11 </span>
+    </div>
 
-    <!-- <button class = "theme"><div id = "themeBTN"> </div></button>
-    <button class="collapse"><span class = "collapse-txt">Menu</span></button> -->
-
-  </nav>
 </header>
+
+<!-- dont remove this, it will break -->
+<nav style="height: 5rem; width: 100%;"></nav>
 
 <!-- V Hero section V-->
 
 <section class = "hero-section">
+
+<div id = "form-container">
+
+  <form id = "form-fill-up">
+
+
+  </form>
+
+</div>
 
   <div class="hero-section-bg">
     <h1>
       Effective Solution <br>for Your Business
     </h1>
 
-    <button class="hero-section-btn">Order Service</button>
+    <button class="hero-section-btn" id="orderServiceBtn">Order Service</button>
   </div>
 
 </section>
 
 <!-- Main section -->
 
-<main>
+<article>
 
 <section class = "container-1">
 
@@ -220,7 +224,7 @@
 
 </section>
 
-</main>
+</article>
 
 <!-- footer -->
 
@@ -248,7 +252,6 @@
 </div>
 
 </footer>
-
 
 <!-- Script -->
 
