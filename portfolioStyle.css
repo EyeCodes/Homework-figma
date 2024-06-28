@@ -44,90 +44,105 @@ main{
 /* navigation bar vv */
 header{
 
-height: 75px;
-width: 100%;
-
-}
-
-.navigation{
-
-  background-color: #FFFF;
-  box-shadow: 0 1px 5px -1.5px rgb(0, 0, 0);
-  
-  height: 75px;
+  height: 5rem;
   width: 100%;
-
-  position: fixed;
-  display: grid;
-
-  grid-template-columns: 1% 30% 25% ;
-  column-gap: 3.5rem;
-
-  align-items: center;
-  justify-content: space-evenly;
-
-  z-index: 2;
-  
-  }
-
-  .collapse{
-  
-  visibility: hidden;
   
   }
   
-  .logo{
+  .navigation{
   
-  font-family: 'Raleway';  
-  font-size: 1.2rem;
-  font-weight: 900;
-  letter-spacing: 1px;
+    background-color: #FFFF;
+    box-shadow: 0 1px 5px -1.5px rgb(0, 0, 0);
+    
+    height: 5rem;
+    width: 100%;
+  
+    position: fixed;
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+  
+  
+    z-index: 1;
+    
+    }
+  /* 
+    .collapse{
+    
+    visibility: hidden;
+    
+    } */
+    
+    .logo{
+    
+    font-family: 'Raleway';  
+    font-size: 1.2rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    
+    }
+    
+    .logo.web {
+    
+    color: rgb(49, 110, 251);
+    
+    }
+    
+    .logo.studio {
+    
+    color: rgb(10, 0, 40);
+    
+    }
+    
+    .navMenu{
+    
+    font-size: 1rem;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: rgb(10, 0, 40);
+  
+    margin-left: 2rem;
+  
   
   }
   
-  .logo.web {
+    .navMenu.link:hover{
+    
+    color: #4D5AE5;
+    
+    }
+    
+    .contacts{
+    
+      font-size: 1rem;
+      font-weight: light;
+      color: rgb(109, 104, 125);
+    
+      }
   
-  color: rgb(49, 110, 251);
+    .contacts:last-child{
   
-  }
-  
-  .logo.studio {
-  
-  color: rgb(10, 0, 40);
-  
-  }
-  
-  .navMenu{
-  
-  font-size: 1rem;
-  font-family: 'Roboto';
-  font-weight: bold;
-
-  margin-left: 10%;
-  color: rgb(10, 0, 40);
-  
-  }
-  
-  .navMenu.link:hover{
-  
-  color: #4D5AE5;
-  
-  }
-  
-  .contacts{
-  
-    font-size: 0.9rem;
-    font-weight: light;
-    color: rgb(109, 104, 125);
+      margin-left: 2rem;
   
     }
-
-  .contacts:last-child{
-
-    margin-left: 1%;
-
-  }
   
+    .logo.web, .navMenu, .contacts{
+  
+      align-content: center;
+      text-align: start;
+  
+      height: 100%;
+      width: 30rem;
+  
+    }
+  
+    .logo.web, .contacts{
+  
+      margin-left: 5rem;
+    
+  
+    }
   
   /* theme */
   

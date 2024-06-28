@@ -54,7 +54,7 @@ justify-content: space-evenly;
 /* navigation bar vv */
 header{
 
-height: 75px;
+height: 5rem;
 width: 100%;
 
 }
@@ -64,27 +64,25 @@ width: 100%;
   background-color: #FFFF;
   box-shadow: 0 1px 5px -1.5px rgb(0, 0, 0);
   
-  height: 75px;
+  height: 5rem;
   width: 100%;
 
   position: fixed;
-  display: grid;
-
-  grid-template-columns: 1% 30% 25% ;
-  column-gap: 3.5rem;
-
-  align-items: center;
+  display: flex;
+  
   justify-content: space-evenly;
+  align-items: center;
 
-  z-index: 2;
+
+  z-index: 1;
   
   }
-
+/* 
   .collapse{
   
   visibility: hidden;
   
-  }
+  } */
   
   .logo{
   
@@ -112,12 +110,13 @@ width: 100%;
   font-size: 1rem;
   font-family: 'Roboto';
   font-weight: bold;
-
-  margin-left: 10%;
   color: rgb(10, 0, 40);
-  
-  }
-  
+
+  margin-left: 2rem;
+
+
+}
+
   .navMenu.link:hover{
   
   color: #4D5AE5;
@@ -126,7 +125,7 @@ width: 100%;
   
   .contacts{
   
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: light;
     color: rgb(109, 104, 125);
   
@@ -134,13 +133,30 @@ width: 100%;
 
   .contacts:last-child{
 
-    margin-left: 1%;
+    margin-left: 2rem;
+
+  }
+
+  .logo.web, .navMenu, .contacts{
+
+    align-content: center;
+    text-align: start;
+
+    height: 100%;
+    width: 30rem;
+
+  }
+
+  .logo.web, .contacts{
+
+    margin-left: 5rem;
+  
 
   }
   
   /* theme */
   
-  .theme{
+  /* .theme{
   
     border: 0;
     background-color: rgba(0, 0, 0, 0);
@@ -156,7 +172,7 @@ width: 100%;
     border-radius: 100%;
   
   }
-  
+   */
   /* them btn*/
   
 /* md size */
@@ -263,8 +279,7 @@ width: 100%;
 
   .navMenu{
 
-    font-size: 10px;
-    /* margin: 24.5%; */
+    font-size: 1rem;
   
   } 
 
