@@ -19,10 +19,6 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
-input[type="number"]:focus {
-    -moz-appearance: textfield;
-}
-
 input:focus{
 
 outline-color: #3848fc !important;
@@ -433,25 +429,29 @@ to {height: 95%; width: 25%;}
 }
 
 
+
 /* v section 1 v */
 
 .container-1{
-
   height: 100%;
   width: 100%;
-  margin: 5rem 10rem 15rem 10rem;
-  right: 12rem;
+  margin: 10% 0 15% 0;
+  display: grid;
+}
 
-  position: relative;
+.sub-container-3{
+
+  height: 100%;
+  margin: 0 10%;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   column-gap: 5rem;
-  row-gap: 15rem;
-  
-  justify-content: center;
+  row-gap: 10rem;
+  justify-content: space-evenly;
   align-items: center;
+
 }
+
 
 .des{
 
@@ -466,18 +466,6 @@ margin-bottom: 10%;
 display: grid;
 column-gap: 0;
 align-items: center;
-
-}
-
-.des:first-child{
-
-margin-left: 8%;
-
-}
-
-.des:last-child{
-
-  margin-right: 8%;
 
 }
 
@@ -523,8 +511,8 @@ color: rgb(109, 104, 125);
   
   height: 100%;
   width: 100%;
+  margin: 10% 0;
   font-weight: bolder;
-  position: static;
   text-align: center;
   
   display: grid;
@@ -800,5 +788,9 @@ margin-left: 30%;
   }
     
   }
+  
+}
+
+@media screen and (min-width: 1200px) {
   
 }
