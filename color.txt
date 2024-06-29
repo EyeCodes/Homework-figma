@@ -11,4 +11,5 @@ rgb(239, 233, 250) light
 #4D5AE5 iris
 
 #434455 slate
+#8E8F99 light slate
 #FCFCFC dairy

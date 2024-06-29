@@ -41,16 +41,45 @@
 </header>
 
 <!-- dont remove this, it will break -->
-<nav style="height: 5rem; width: 100%;"></nav>
 
 <!-- V Hero section V-->
 
 <section class = "hero-section">
 
 <div id = "form-container">
+  
+  <form id = "form-fill-up" style="display: none;">
 
-  <form id = "form-fill-up">
+    <span id = "closeBTN"><img src="./images/x.png" class = "closeBTN-img"></span>
 
+    <span class="notice">Leave your contacts and we will call you back</span>
+
+    <div class="form-to-fill">
+      <label for="name">Name</label>
+      <input type="text" class = "user icon-1" required>
+    </div>
+
+        <div class="form-to-fill">
+          <label for="number">Number</label>
+          <input type="number" class = "user icon-2" required>
+        </div>
+
+    <div class="form-to-fill">
+      <label for="email">Email</label>
+      <input type="email" class = "user icon-3" required>
+    </div>
+
+    <div class="form-to-fill">
+      <label for="comment">Comment</label>
+      <textarea name="comment box" class="commentBox" placeholder="Text input"></textarea>
+    </div>
+
+    <div class="form-to-fill">
+      <input type="checkbox" class="checkbox" required>
+      <label for="terms" class="terms">I accept the terms and conditions of the <a class = "terms-link">Privacy Policy</a></label>
+    </div>
+
+    <button class="send-form">Send</button>
 
   </form>
 
@@ -58,7 +87,7 @@
 
   <div class="hero-section-bg">
     <h1>
-      Effective Solution <br>for Your Business
+      Effective Solutions <br>for Your Business
     </h1>
 
     <button class="hero-section-btn" id="orderServiceBtn">Order Service</button>
@@ -247,8 +276,21 @@
         <img class="card-social-img" src = "./images/social/facebook.png">
         <img class="card-social-img" src = "./images/social/linkin.png">
       </div>
-  </div>
+  
+    </div>
+</div>
 
+<div class = "container-4">
+  <div class = "card-social-link">
+
+    <span class = "social-media">Subscribe</span>
+    
+    <form class="subscribe">
+      <input type="email" placeholder="E-mail" class="email-subscribe">
+      <button class="subscribeBTN">Subscribe <img src="./images/plane.png" class="plane-icon" alt="paper icon"></button>
+    </form>
+
+    </div>
 </div>
 
 </footer>
