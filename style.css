@@ -167,6 +167,9 @@ opacity: 0;
 
     }
 
+
+
+
 /* navigation bar ^^ */
 
 /* hero section vv */
@@ -266,7 +269,7 @@ justify-content: center;
 align-items: center;
 gap: 0;
 
-animation: pop-up .5s 1;
+animation: pop-up .3s 1;
 
 #closeBTN{
 
@@ -443,16 +446,17 @@ to {height: 95%; width: 25%;}
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  column-gap: .5rem;
+  column-gap: 5rem;
   row-gap: 15rem;
   
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
 .des{
 
 text-align: justify;
+line-height: 24px;
 color: rgb(10, 0, 40);
 
 height: 2rem;
@@ -647,31 +651,21 @@ footer{
 height: 20rem;
 width: 100%;
 
-display: flex;
-flex-wrap: wrap;
+display: grid;
+grid-template-columns: 30% 28% 42%;
 column-gap: 0;
-justify-content: start;
 align-items: center;
-align-content: center;
 
 background-color: #2E2F42;
 
 .container-4{
 
-  height: 25%;
-  margin-left: 10rem;
-  
-  /* display: block;
-  justify-content: center;
-  align-items: center; */
-  
+  height: 99%;
+  width: 99%;
+
+  display: block;
+  align-content: space-around;
   }
-
-  .container-4:nth-of-type(2){
-
-    margin-left: 5rem;
-    
-    }
 
     
 .logo.web-footer{
@@ -698,63 +692,79 @@ background-color: #2E2F42;
 
   text-align: justify;
   color: #F4F4FD;
-  width: 16rem;
+  line-height: 24px;
 
+  
+  height: 5em;
+  width: 60%;
+  max-width: 60%;
+  
+  
   margin: 5% 0;
 
 }
 
-.card-social-link{
+.logo.web-footer,.footer-txt{
 
-  color: #F4F4FD;
-  height: 4rem;
-  width: 18rem;
+margin-left: 30%;
+
+}
+
+  .socials-footer{
   
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  align-items: baseline;
-  
-  .socials{
-  
+
+    height:5rem;
     width: 80%;
-    margin-right: 1rem;
-  
+    margin: 4% 0 8% 0;
+
     display: flex;
     flex-wrap: wrap;
-  
-  }
-  
-  }
-  
-  .socials:nth-child(2){
-  
-    display: flex;
-    justify-content: space-between;
+    column-gap: 1rem;
+    row-gap: 1rem;
     
     }
     
   .social-media{
   
-    width: 15rem;
+  width: 25%;
+  position: relative;
+  
+  text-align: center;
   font-size: 1rem;
-  font-weight: normal;
+  font-weight: 500;
+  color: #F4F4FD;
   
   }
+
+.social-media, .socials-footer{
+
+  margin-left: 10%;
+
+}
   
   .subscribe{
-  
+
+  height:5rem;
+  width: 80%;
+  margin: 3% 0 6% 10%;
+
   display: flex;
-  margin: 4% 0;
+  flex-wrap: wrap;
   column-gap: 1rem;
-    
+  row-gap: 1rem;
+
+  align-content: center;
+
+  .social-media:nth-of-type(2){
+
+    margin-left: 0;
+
   }
-  
+
   .email-subscribe{
   
     height: 40px;
-    width: 264px;
+    width: 45%;
     background: none;
     border: solid 1px #4D5AE5;
     border-radius: 4px;
@@ -764,7 +774,8 @@ background-color: #2E2F42;
   
   .subscribeBTN{
   
-  width: 10rem;
+    height: 40px;
+  width: 160px;
   font-family: 'Roboto';
   font-size: 1rem;
   color: #F4F4FD;
@@ -787,16 +798,7 @@ background-color: #2E2F42;
   margin: 0 1rem;
   
   }
-
+    
+  }
+  
 }
-
-
-
-
-
-
-
-
-
-
-
