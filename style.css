@@ -189,22 +189,29 @@ position: static;
 background-color: rgba(46,47,66, 0.7);
 height: 80vh;
 width: 100%;
+display: flex;
+flex-direction: column;
 justify-content: center;
+align-items: center;
 align-content: center;
-
-font-size: 2.5rem;
-font-weight: 700;
-letter-spacing: 2px;
-line-height: 70px;
-color: #F4F4FD;
-text-align: center;
 
 }
 
-.hero-section-btn{
+.hero-section-bg h1{
 
+  height: 135px;
+  width: 496px;
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 70px;
+  color: #F4F4FD;
+  text-align: center;
+}
+
+.hero-section-btn{
 background-color: #4D5AE5;
-margin-top: 2rem;
+margin-top: 1rem;
 padding: 20px 3em;
 
 border: 0;
@@ -1071,19 +1078,33 @@ padding: 20px 2em;
 
 .hero-section{
 
-  height: 80svh;
+  height: 432px;
   
-  background-image: url("./images/hero-section.png");
+  background: url("./images/hero-section.png") no-repeat;
   background-size: cover;
+  background-position: auto;
   
   position: relative;
   .hero-section-bg{
     width: auto;
-    font-size: 2rem;
-    font-weight: 700;
-    line-height: 3rem ;
-    letter-spacing: 1px;
-  }
+    height: 432px;
+
+    }
+
+    .hero-section-bg h1{
+      width: 20rem;
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 3rem ;
+      letter-spacing: 1px;
+
+      }
+      .hero-section-btn{
+        height: 3rem;
+        width: 10rem;
+        margin: 0;
+        padding: 0;
+      }
   }
 
 .container-2{
