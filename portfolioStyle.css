@@ -655,6 +655,7 @@ footer{
     
 
     .filter{
+      width: 90%;
       flex-wrap: wrap;
       row-gap: 1rem;
       margin:0 0 20% 10%;
