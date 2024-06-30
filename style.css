@@ -1033,7 +1033,6 @@ footer{
 .container-4{
 
   height: 2rem ;
-  border: solid 2px green;
   display: flex !important;
   flex-direction: column;
   justify-content: center !important;
@@ -1042,7 +1041,6 @@ footer{
 }
 
 .footer-txt{
-  border: solid 2px rgb(155, 50, 23);
   margin: 2% !important;
   width: 18rem !important;
 }
@@ -1053,8 +1051,6 @@ footer{
   text-align: center;
   justify-content: center;
   margin: 0 !important;
-  border: solid 2px rgb(155, 50, 23);
-
 }
 
 .email-subscribe{
