@@ -172,7 +172,7 @@ opacity: 0;
 
 .hero-section{
 
-height: 80vh;
+height: 80dvh;
 width: 100%;
 
 background-image: url("./images/hero-section.png");
@@ -501,7 +501,7 @@ margin-bottom: 5%;
 .t{
 
 font-size: 1rem;
-color: rgb(109, 104, 125);
+color: #434455;
 
 }
 
@@ -548,7 +548,7 @@ width: 25rem;
   height: 100%;
   width: 100%;
   margin: 10% 0 0 0;
-  padding: 1% 0;
+  padding: 5% 0;
 
   display: block;
   justify-content: center;
@@ -605,7 +605,7 @@ margin: 1rem 0 3% 0;
 
 font-size: 1rem;
 font-weight: light;
-color: rgb(109, 104, 125);
+color: #434455;
 
 }
 
@@ -682,12 +682,7 @@ background-color: #2E2F42;
   color: #F4F4FD;
   line-height: 24px;
 
-  
-  height: 5em;
   width: 60%;
-  max-width: 60%;
-  
-  
   margin: 5% 0;
 
 }
@@ -792,7 +787,7 @@ margin-left: 30%;
 }
 
 /* tablet */
-@media screen and (max-width: 900px) and (min-width: 768px) {
+@media screen and (max-width: 900px) and (min-width: 720px) {
 
   header{
     grid-template-columns: 20% 60% 20%;
@@ -855,6 +850,10 @@ padding: 20px 2em;
 
   display: none;
 
+}
+
+.container-2{
+  display: none;
 }
 
   footer{
@@ -946,3 +945,121 @@ padding: 20px 2em;
 }
 
 /* phone */
+
+@media screen and (max-width: 719px){
+
+.logo{
+  margin-left: 20%;
+}
+.navMenu{
+  display: none;
+}
+.contacts{
+  display: none;
+}
+
+.hero-section{
+
+  height: 80svh;
+  
+  background-image: url("./images/hero-section.png");
+  background-size: cover;
+  
+  position: relative;
+  .hero-section-bg{
+    width: auto;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem ;
+    letter-spacing: 1px;
+  }
+  }
+
+.container-2{
+  display: none;
+}
+
+.container-1{
+
+  margin: 30% 0;
+  .sub-container-3{
+    row-gap: 8rem;
+  }
+    .core-img{
+    display: none;
+    row-gap: 0;
+    }
+    .des{
+    width: 100%;
+    align-items: center;
+    text-align: justify;
+      .h{
+      font-size: 2rem;
+      font-weight: 700;
+      text-align: center;
+    }
+  }
+
+.container-3{
+
+margin: 50% 0;
+
+  }
+
+}
+
+.container-3{
+margin: 20% 0;
+}
+
+section.container-5 div{
+  margin: 10%;
+display: grid;
+grid-template-columns: auto auto;
+align-items: center;
+justify-content: center;
+}
+
+footer{
+  height: 664px;
+  grid-template-columns: 100%;
+  grid-template-rows:20% 20% 25%;
+
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.container-4{
+
+  height: 2rem ;
+  border: solid 2px green;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+
+}
+
+.footer-txt{
+  border: solid 2px rgb(155, 50, 23);
+  margin: 2% !important;
+  width: 18rem !important;
+}
+
+.logo, .logo.web-footer, .social-media, .socials-footer, .subscribe{
+  height: auto;
+  width: 100% !important;
+  text-align: center;
+  justify-content: center;
+  margin: 0 !important;
+  border: solid 2px rgb(155, 50, 23);
+
+}
+
+.email-subscribe{
+  margin-top: 3rem;
+  width: 92% !important;
+}
+
+}

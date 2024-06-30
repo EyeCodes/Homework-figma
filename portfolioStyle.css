@@ -155,7 +155,7 @@ opacity: 0;
 
 height: 5rem;
 width: 100%;
-margin: 5% 0;
+margin: 2% 0;
 top: 5px;
 
 position: static;
@@ -168,16 +168,17 @@ align-items: center;
 
 .filterBTN{
 
-height: auto;
+height: 4rem;
 width: auto;
 padding: 1% 2%;
 
 border: solid 1px #E7E9FC;
 border-radius: 5%;
 
-font-size: 14px;
+font-size: 1rem;
 font-family: 'Roboto';
-font-weight: 500;
+font-weight: 600;
+letter-spacing: 1px;
 color: #4D5AE5;
 
 background-color: #F4F4FD;
@@ -191,7 +192,7 @@ padding: 1.5% 2.5%;
 box-shadow: 2px 5px 5px -6px black,
       inset 0 0 5px -1px rgb(18, 28, 84);
 color: #F4F4FD;
-background-color: #4D5AE5;
+background-color: #404BBF;
 
 }
 
@@ -201,6 +202,7 @@ background-color: #4D5AE5;
 
   height: 100%;
 width: 100%;
+margin-bottom: 10%;
 display: grid;
 
 }
@@ -208,13 +210,13 @@ display: grid;
 .sub-container{
 
 width: 100%;
-margin: 5% auto;
+margin: 2% auto;
 
 display: flex;
 flex-wrap: wrap;
 
 column-gap: 2rem;
-row-gap: 1rem;
+row-gap: 2rem;
 justify-content: center;
 align-items: center;
 
@@ -224,34 +226,30 @@ align-items: center;
 
 height: 420px;
 width: 380px;
-border-radius: 4px;
+border-radius: 6px;
 
-padding-bottom: 8%;
 
 border: solid 1px #E7E9FC;
-background-color: white;
+background-color:#F4F4FD;
 
 }
 
 .catalog:hover{
 
-  padding-bottom: 5rem;
+  height: 400px;
   box-shadow: 2px 5px 5px -6px black,
         inset 0 0 5px -1px rgb(18, 28, 84);
-  color: rgb(239, 233, 250);
   background-color: rgb(49, 110, 251);
 
   .category{
-
-    font-size: 0;
-
+  color:#F4F4FD;
   }
 
 }
 
 .catalog-img{
 
-height: 100%;
+height: 70%;
 width: 100%;
 border-radius: 4px 4px 0 0;
 
@@ -322,12 +320,7 @@ footer{
     color: #F4F4FD;
     line-height: 24px;
   
-    
-    height: 5em;
     width: 60%;
-    max-width: 60%;
-    
-    
     margin: 5% 0;
   
   }
@@ -432,7 +425,7 @@ footer{
   }
   
   /* tablet */
-  @media screen and (max-width: 900px) and (min-width: 768px) {
+  @media screen and (max-width: 900px) and (min-width: 720px) {
   
     header{
       grid-template-columns: 20% 60% 20%;
@@ -445,39 +438,11 @@ footer{
       font-weight: 400;
       color: #434455;
       }
-  
-    .hero-section-bg{
-  font-size: 2.5rem;
-  font-weight: 500;
-    }
-  
-  
-  .sub-container-3{
-    margin: 2% 1%;
-    row-gap: 5rem;
-    justify-content: start;
-    .des{
-      width: 42%;
-      align-items: start;
-      text-align: left;
-      .h{
-        font-size: 2rem;
-        font-weight: 700;
-        text-align: left;
+
+      .filterBTN{
+        height: 3rem;
       }
-      .t{
-      font-weight: 500;
-      }
-  
-    }
-  
-  }
-  .core-img{
-  
-    display: none;
-  
-  }
-  
+
     footer{
     height: 456px;
     align-items:normal;
@@ -565,3 +530,74 @@ footer{
     }
   
   }
+
+  /* phone */
+
+  @media screen and (max-width: 719px){
+
+    .logo{
+      margin-left: 20%;
+    }
+    .navMenu{
+      display: none;
+    }
+    .contacts{
+      display: none;
+    }
+
+    .filter{
+      flex-wrap: wrap;
+      row-gap: 1rem;
+      margin:0 0 20% 10%;
+      justify-content: start !important;
+      align-items: start !important;
+    }
+
+    .filterBTN{
+      height: 3rem;
+      width: 6rem;
+    }
+    
+    footer{
+      height: 664px;
+      grid-template-columns: 100%;
+      grid-template-rows:20% 20% 25%;
+    
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+    }
+    
+    .container-4{
+    
+      height: 2rem ;
+      border: solid 2px green;
+      display: flex !important;
+      flex-direction: column;
+      justify-content: center !important;
+      align-items: center !important;
+    
+    }
+    
+    .footer-txt{
+      border: solid 2px rgb(155, 50, 23);
+      margin: 2% !important;
+      width: 18rem !important;
+    }
+    
+    .logo, .logo.web-footer, .social-media, .socials-footer, .subscribe{
+      height: auto;
+      width: 100% !important;
+      text-align: center;
+      justify-content: center;
+      margin: 0 !important;
+      border: solid 2px rgb(155, 50, 23);
+    
+    }
+    
+    .email-subscribe{
+      margin-top: 3rem;
+      width: 92% !important;
+    }
+    
+    }
