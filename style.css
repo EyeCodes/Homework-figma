@@ -1151,16 +1151,22 @@ footer{
 
 }
 
+.logo.web-footer{
+  margin: 0 !important;
+  text-align: center;
+}
+
 .footer-txt{
   margin: 2% !important;
   width: 18rem !important;
 }
 
-.logo, .logo.web-footer, .social-media, .socials-footer, .subscribe{
+.social-media, .socials-footer, .subscribe{
   height: auto;
   width: 100% !important;
   text-align: center;
   justify-content: center;
+  align-content: center;
   margin: 0 !important;
 }
 

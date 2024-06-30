@@ -201,7 +201,6 @@ background-color: #404BBF;
 .container{
 
   height: 100%;
-width: 100%;
 margin-bottom: 10%;
 display: grid;
 
@@ -658,7 +657,7 @@ footer{
       width: 90%;
       flex-wrap: wrap;
       row-gap: 1rem;
-      margin:0 0 20% 10%;
+      margin:0 0 10rem 10%;
       justify-content: start !important;
       align-items: start !important;
     }
@@ -668,6 +667,10 @@ footer{
       width: 6rem;
     }
     
+    .catalog{
+      width: 80%;
+    }
+
     footer{
       height: 664px;
       grid-template-columns: 100%;
@@ -688,12 +691,17 @@ footer{
     
     }
     
+    .logo.web-footer{
+      margin: 0 !important;
+      text-align: center;
+    }
+
     .footer-txt{
       margin: 2% !important;
       width: 18rem !important;
     }
     
-    .logo, .logo.web-footer, .social-media, .socials-footer, .subscribe{
+    .social-media, .socials-footer, .subscribe{
       height: auto;
       width: 100% !important;
       text-align: center;
