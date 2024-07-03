@@ -733,8 +733,6 @@ color: #434455;
 .hero-section{
 
 height: 436px;
-max-width: 1024px;
-min-width: 800px;
 background-image: url("./images/hero-section.png");
 
 
@@ -742,7 +740,6 @@ background-image: url("./images/hero-section.png");
 
 .hero-section-bg{
   height: 436px;
-  width: 100%;
 font-size: 2rem;
 font-weight: 500;
   }
@@ -752,7 +749,6 @@ padding: 20px 2em;
   }
   
 .sub-container-3{
-  width: 99%;
   display: grid;
   grid-template-columns: 50% 50%;
   row-gap: 5rem;
@@ -783,12 +779,6 @@ font-weight: 500;
   display: none;
 }
 
-.container-3{
-  max-width: 1024px;
-  min-width: 800px;
-
-}
-
 .sub-container-2{
   display: grid;
     grid-auto-flow: row;
@@ -804,8 +794,6 @@ font-weight: 500;
 
 footer{
   height: 456px;
-  max-width: 1024px;
-  min-width: 800px;
   align-items: normal;
   justify-content: center;
   align-content: center;
@@ -1050,12 +1038,7 @@ padding: 5rem 0;
 }
 
 .sub-container-2{
-
 row-gap: 2rem;
-
-}
-
-.container-5{
 }
 
 .container-5 div{

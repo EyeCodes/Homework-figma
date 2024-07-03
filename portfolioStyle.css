@@ -1,10 +1,12 @@
 *{
   padding: 0;
   margin: 0;
+  border: solid 1px forestgreen;
 }
 
 body{
   min-width: 320px;
+
   align-content: center;
   justify-content: center;
   font-family: 'Roboto';
@@ -132,9 +134,8 @@ text-align: center;
 /* Filter*/
 
 .filter{
-
 height: 5rem;
-width: 100%;
+width: auto;
 margin: 3% 0;
 top: 5px;
 display: flex;
@@ -188,7 +189,6 @@ background-color: #404BBF;
 /* catalog */
 
 .container{
-
 height: 100%;
 margin-bottom: 10%;
 display: grid;
@@ -198,10 +198,7 @@ justify-content: center;
 }
 
 .sub-container{
-
-width: 100%;
 margin: 2% auto;
-
 display: grid;
 grid-template-columns: auto auto auto;
 grid-row: auto;
@@ -216,7 +213,6 @@ align-items: center;
 .catalog{
 
 height: 420px;
-width: 360px;
 border-radius: 6px;
 
 
@@ -253,7 +249,6 @@ color: rgb(109, 104, 125);
 footer{
 
   height: 20rem;
-  min-width: 1025px;
   
   display: grid;
   grid-template-columns: 30% 28% 42%;
@@ -606,43 +601,30 @@ flex-wrap: wrap;
 justify-content: space-evenly;
 align-items: center;
   }
-  
-
 
 .filter{
-
-width: auto;
 display: grid;
 grid-auto-flow: row;
 grid-template-columns: auto auto auto;
 row-gap: 1rem;
-margin:0 0 10rem 10%;
+margin:0 0 10rem 0;
 justify-content: start !important;
 align-items: start !important;
 }
 
 .filterBTN{
 height: 3rem;
-width: 6rem;
+width: 5rem;
 }
 
-.container{
-  max-width: 769px;
-  min-width: 429px;
-}
 .sub-container{
   display: grid;
+  margin: 0 2%;
   grid-template-columns: 100%;
-}
-.catalog{
-  height: 400px;
-  width: 396px;
 }
 
 footer{
   height: 664px;
-  max-width: 769px;
-  min-width: 429px;
   grid-template-columns: auto !important;
   row-gap: 3rem;
   grid-template-rows:20% 20% 25%;
